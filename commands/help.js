@@ -7,7 +7,8 @@ const embed = new EmbedBuilder()
 .setTitle(`Commands of ${client.user.username}`)
 .setColor('#2F3136')
 .setDescription('**Please Select a category to view all its commands**')
-.addFields({ name: `Links:`, value: `- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`, inline: true })
+//addFields({ name: `Links:`, value: `- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`, inline: true })
+     .addFields({ name: `Links:`, value: `- [Discord Server](https://discord.gg/easynitro)`, inline: true })
 .setTimestamp()
 .setFooter({
   text: `Requested by ${message.author.username} | ` + config.copyright, 
