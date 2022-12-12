@@ -34,7 +34,8 @@ client.giveawaysManager = new GiveawaysManager(client, {
       embedColor: '#FF0000'
     }
   }
-});
+}); 
+
 //Coded by ZeroSync on yt
 
 /* Load all events (discord based) */
